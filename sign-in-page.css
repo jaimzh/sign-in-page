@@ -85,22 +85,37 @@ body{
     cursor: pointer;
 }
 
+
 .required-forgot{
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.required-forgot2{
+    
+    display: flex;
     justify-content: space-between;
-    margin: 10px;
+    align-items: center;
+    
     font-size: 12px;
 }
 
+
 .required-forgot label{
+    
     color: var(--maincolor);
+    
 }
 
 .required-forgot  a{
     color: var(--maincolor);
     text-decoration: none;
+    margin-left: 2rem;
 }
 
+.required-forgot .chkbox {
+    margin-right:2px 
+}
 .required-forgot  a:hover{
     text-decoration: underline;
 }
