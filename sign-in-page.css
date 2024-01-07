@@ -116,6 +116,7 @@ body{
 }
 
 .required-forgot .chkbox {
+    margin-top: 6px;
     margin-right: 1px 
 }
 .required-forgot  a:hover{
@@ -142,9 +143,7 @@ body{
     text-decoration: underline;
  }
 
- .chkox{
-    padding: 10px;
- }
+
 
  .signin-btn{
     display: flex;
